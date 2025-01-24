@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:antiquewhite;
+}
+h3{
+    font-size: 2rem;
+    text-align: center;
+    color: brown;
+}
+
+.game{
+display: grid;
+grid-template-columns: repeat(4,120px);
+grid-row-gap:3em;
+margin: 40px auto;
+align-items:center;
+justify-content: center;
+}
+
+#gameBoard div{
+    height:150px;
+    width: 80px;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #830808;
+    font-size: 2em;
+    background-color:antiquewhite;
+
+}
+
+.cardback{
+
+    background-color:antiquewhite;
+    opacity: 0.8;
+    background-image: linear-gradient(135deg, #e6ec29 25%, #d0d609 25%, #eeee10 50%, #e1be0b 50%, #dfd110 75%, #e6c80b 75%, #e4e80c);
+    background-position: 10px 0, 10px 0, 0 0, 0 0;
+    background-size: 10px 10px;
+    background-repeat: repeat;   
+}
+    
+#gameBoard div:hover{
+    cursor: pointer;
+}
+
+.Won{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+    color: rgb(236, 29, 73);
+    width: 500px;
+    margin: 0px auto;
+}
